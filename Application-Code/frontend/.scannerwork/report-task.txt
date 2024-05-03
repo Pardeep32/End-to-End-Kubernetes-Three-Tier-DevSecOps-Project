@@ -1,0 +1,6 @@
+projectKey=three-tier-frontend
+serverUrl=http://35.183.121.249:9000
+serverVersion=9.9.5.90363
+dashboardUrl=http://35.183.121.249:9000/dashboard?id=three-tier-frontend
+ceTaskId=AY9AF5J5DX3e5SSCFyVF
+ceTaskUrl=http://35.183.121.249:9000/api/ce/task?id=AY9AF5J5DX3e5SSCFyVF

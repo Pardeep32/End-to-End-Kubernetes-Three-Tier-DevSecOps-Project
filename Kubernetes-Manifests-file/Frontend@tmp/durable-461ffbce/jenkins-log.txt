@@ -1,0 +1,15 @@
++ git config user.email deepnabha20@gmail.com
++ git config user.name Pardeep32
++ BUILD_NUMBER=3
++ echo 3
+3
++ grep -oP (?<=frontend:)[^ ]+ deployment.yaml
++ imageTag=2
++ echo 2
+2
++ sed -i s/threetierfrontend:2/threetierfrontend:3/ deployment.yaml
++ git add deployment.yaml
++ git add ../../Application-Code/frontend/.scannerwork/
++ git add ../../Application-Code/frontend/dependency-check-report.xml
++ git add ../../Application-Code/frontend/trivyfs.txt
++ git add ../Frontend@tmp/
