@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: deepcloud.site
+    - host: backend/deepcloud.site
       http:
         paths:
           - path: /api
