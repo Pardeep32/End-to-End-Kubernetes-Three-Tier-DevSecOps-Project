@@ -88,15 +88,15 @@ pipeline {
         stage('Update Deployment file') {
     environment {
         GIT_REPO_NAME = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project"
-        GIT_USER_NAME = "AmanPathak-DevOps"
+        GIT_USER_NAME = "Pardeep32"
     }
     steps {
         dir('Kubernetes-Manifests-file/Frontend') {
             withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
                 script {
                     sh '''
-                        git config user.email "aman07pathak@gmail.com"
-                        git config user.name "AmanPathak-DevOps"
+                        git config user.email "deepnabha20@gmail.com"
+                        git config user.name "Pardeep32"
                         BUILD_NUMBER=${BUILD_NUMBER}
                         echo $BUILD_NUMBER
                         imageTag=$(grep -oP '(?<=frontend:)[^ ]+' deployment.yaml)
